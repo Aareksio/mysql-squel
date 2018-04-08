@@ -111,3 +111,6 @@ class Pool extends Connection {
 }
 
 module.exports = Pool;
+module.exports.Pool = Pool;
+module.exports.Connection = Connection;
+module.exports.Transaction = Transaction;
